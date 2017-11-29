@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jane&#39;s Blog</title>
+  
+  <subtitle>Note everything</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://antfire70007.github.io/"/>
+  <updated>2017-11-28T05:22:24.247Z</updated>
+  <id>http://antfire70007.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Entity Framework Core 2 Invalid Usage of the option NEXT in the FETCH statement</title>
+    <link href="http://antfire70007.github.io/2017/11/28/Entity-Framework-Core-2-Invalid-Usage-of-the-option-NEXT-in-the-FETCH-statement/"/>
+    <id>http://antfire70007.github.io/2017/11/28/Entity-Framework-Core-2-Invalid-Usage-of-the-option-NEXT-in-the-FETCH-statement/</id>
+    <published>2017-11-28T05:09:18.000Z</published>
+    <updated>2017-11-28T05:22:24.247Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="問題描述"><a href="#問題描述" class="headerlink" title="問題描述"></a>問題描述</h1><p>使用Entity Framework core 2 要取得分頁資料，執行階段出錯，錯誤訊息為</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">System.Data.SqlClient.SqlException (0x80131904): 接近 &apos;OFFSET&apos; 之處的語法不正確。</span><br><span class="line">FETCH 陳述式中的選項 NEXT 使用方式無效。</span><br></pre></td></tr></table></figure><p>會出現這種錯誤訊息的原因是因為 OFFSET 是在SQL Server 2012版本後才開始支援的，而我使用的是2012以前的版本，導致EF產生出來的語法 Sql Server看不懂而報錯</p><h1 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法"></a>解決方法</h1><p>在一開始設定DbContext的時候告訴他，請幫我在分頁的時候使用傳統的PageNumber方式我做分頁</p><p>在 Startup.cs 的 ConfigureServices方法中，注入DbContext的地方<br><code>.UseSqlServer(....)</code></p><p>幫他多加一個option參數<br><code>.UseSqlServer(...., opt=&gt; opt.UseRowNumberForPaging())</code></p><p>即可收工。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;問題描述&quot;&gt;&lt;a href=&quot;#問題描述&quot; class=&quot;headerlink&quot; title=&quot;問題描述&quot;&gt;&lt;/a&gt;問題描述&lt;/h1&gt;&lt;p&gt;使用Entity Framework core 2 要取得分頁資料，執行階段出錯，錯誤訊息為&lt;/p&gt;
+&lt;figure cla
+      
+    
+    </summary>
+    
+    
+      <category term="entityframework" scheme="http://antfire70007.github.io/tags/entityframework/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安裝Entity Framework core 2.0</title>
+    <link href="http://antfire70007.github.io/2017/11/27/entityframework-core-2-installation/"/>
+    <id>http://antfire70007.github.io/2017/11/27/entityframework-core-2-installation/</id>
+    <published>2017-11-27T08:17:57.621Z</published>
+    <updated>2017-11-28T05:21:45.821Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="安裝-Entity-Framework"><a href="#安裝-Entity-Framework" class="headerlink" title="安裝 Entity Framework"></a>安裝 Entity Framework</h1><p>在套件管理員執行以下指令</p><h2 id="安裝-SqlServer套件"><a href="#安裝-SqlServer套件" class="headerlink" title="安裝 SqlServer套件"></a>安裝 SqlServer套件</h2><blockquote><ul><li><code>Install-Package Microsoft.EntityFrameworkCore.SqlServer</code></li></ul></blockquote><h2 id="安裝Entity-Framework-工具"><a href="#安裝Entity-Framework-工具" class="headerlink" title="安裝Entity Framework 工具"></a>安裝Entity Framework 工具</h2><blockquote><ul><li><code>Install-Package Microsoft.EntityFramework.Tools</code></li></ul></blockquote><h2 id="安裝-Scaffolding-tool來幫忙產生-DbContext-及-POCO"><a href="#安裝-Scaffolding-tool來幫忙產生-DbContext-及-POCO" class="headerlink" title="安裝 Scaffolding tool來幫忙產生 DbContext 及 POCO"></a>安裝 Scaffolding tool來幫忙產生 DbContext 及 POCO</h2><blockquote><ul><li><code>Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design</code></li></ul></blockquote><h1 id="根據現有的資料庫來建立EF-Model"><a href="#根據現有的資料庫來建立EF-Model" class="headerlink" title="根據現有的資料庫來建立EF Model"></a>根據現有的資料庫來建立EF Model</h1><p>在套件管理員執行以下指令</p><blockquote><ul><li><code>scaffold-DbContext &quot;您的連線字串&quot; Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models</code><br>Models 是用來指定產生出來的DbContext及POCO放置的資料夾位置</li></ul></blockquote><h2 id="讓scaffold-DbContext只轉換指定的資料表"><a href="#讓scaffold-DbContext只轉換指定的資料表" class="headerlink" title="讓scaffold-DbContext只轉換指定的資料表"></a>讓scaffold-DbContext只轉換指定的資料表</h2><p>如果不希望將資料庫內所有的資料表轉成EF Model的話，可以使用<code>-Tables</code> 選項，告訴它只需要幫我轉換以下資料表即可<code>tableA,tableB</code></p><p>範例：</p><blockquote><ul><li><code>scaffold-DbContext &quot;您的連線字串&quot; Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables TableA,TableB</code></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;安裝-Entity-Framework&quot;&gt;&lt;a href=&quot;#安裝-Entity-Framework&quot; class=&quot;headerlink&quot; title=&quot;安裝 Entity Framework&quot;&gt;&lt;/a&gt;安裝 Entity Framework&lt;/h1&gt;&lt;p&gt;在套
+      
+    
+    </summary>
+    
+    
+      <category term="entityframework" scheme="http://antfire70007.github.io/tags/entityframework/"/>
+    
+      <category term="dotnet core" scheme="http://antfire70007.github.io/tags/dotnet-core/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>取得類別所有屬性</title>
+    <link href="http://antfire70007.github.io/2017/11/26/Get-Class-Properties/"/>
+    <id>http://antfire70007.github.io/2017/11/26/Get-Class-Properties/</id>
+    <published>2017-11-26T07:51:43.000Z</published>
+    <updated>2017-11-26T13:21:34.852Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="從Instance取得類別所有的屬性"><a href="#從Instance取得類別所有的屬性" class="headerlink" title="從Instance取得類別所有的屬性"></a>從Instance取得類別所有的屬性</h1><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">obj.GetProperties();</span><br></pre></td></tr></table></figure><h1 id="從Class取得所有屬性"><a href="#從Class取得所有屬性" class="headerlink" title="從Class取得所有屬性"></a>從Class取得所有屬性</h1><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typeof</span>(Foo).GetProperties();</span><br></pre></td></tr></table></figure><h1 id="使用範例"><a href="#使用範例" class="headerlink" title="使用範例"></a>使用範例</h1><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title">Foo</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">int</span> A &#123;<span class="keyword">get</span>;<span class="keyword">set</span>;&#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">string</span> B &#123;<span class="keyword">get</span>;<span class="keyword">set</span>;&#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br><span class="line">Foo foo = <span class="keyword">new</span> Foo &#123;A = <span class="number">1</span>, B = <span class="string">"abc"</span>&#125;;</span><br><span class="line"><span class="keyword">foreach</span>(<span class="keyword">var</span> prop <span class="keyword">in</span> foo.GetType().GetProperties()) &#123;</span><br><span class="line">    Console.WriteLine(<span class="string">"&#123;0&#125;=&#123;1&#125;"</span>, prop.Name, prop.GetValue(foo, <span class="literal">null</span>));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://stackoverflow.com/questions/737151/how-to-get-the-list-of-properties-of-a-class" target="_blank" rel="noopener">Stackflow</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;從Instance取得類別所有的屬性&quot;&gt;&lt;a href=&quot;#從Instance取得類別所有的屬性&quot; class=&quot;headerlink&quot; title=&quot;從Instance取得類別所有的屬性&quot;&gt;&lt;/a&gt;從Instance取得類別所有的屬性&lt;/h1&gt;&lt;figure c
+      
+    
+    </summary>
+    
+    
+      <category term="C#" scheme="http://antfire70007.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MAC環境底下，尋找並且刪除被佔用的連接埠</title>
+    <link href="http://antfire70007.github.io/2017/11/26/find-and-kill-process-locking-port-on-mac/"/>
+    <id>http://antfire70007.github.io/2017/11/26/find-and-kill-process-locking-port-on-mac/</id>
+    <published>2017-11-25T17:36:17.301Z</published>
+    <updated>2017-11-25T17:46:17.646Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="問題描述"><a href="#問題描述" class="headerlink" title="問題描述"></a>問題描述</h1><p>啟動nodejs時，出現 <code>Error: listen EADDRINUSE 0.0.0.0:4000</code><br>導致無法正常啟動伺服器</p><h1 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法"></a>解決方法</h1><p>解決方法有3種</p><blockquote><ul><li>重開機</li><li>使用其他連接埠</li><li>停止佔用該連接埠的服務</li></ul></blockquote><p>但我比較傾向最後一種</p><p>在MAC環境底下，可使用以下指令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo lsof -i tcp: YOURPORT</span><br></pre></td></tr></table></figure></p><p>接下來會告訴你該服務的COMMAND及PID等資訊</p><p>根據PID使用kill指令即可<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">kill</span> YOURPID</span><br></pre></td></tr></table></figure></p><p>如果是其他環境，可使用netstat</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -vanp tcp | grep YOURPORT</span><br></pre></td></tr></table></figure><p>接著同樣下kill指令</p><p>＃Reference<br><a href="https://stackoverflow.com/questions/3855127/find-and-kill-process-locking-port-3000-on-mac" target="_blank" rel="noopener">stackoverflow</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;問題描述&quot;&gt;&lt;a href=&quot;#問題描述&quot; class=&quot;headerlink&quot; title=&quot;問題描述&quot;&gt;&lt;/a&gt;問題描述&lt;/h1&gt;&lt;p&gt;啟動nodejs時，出現 &lt;code&gt;Error: listen EADDRINUSE 0.0.0.0:4000&lt;/code
+      
+    
+    </summary>
+    
+    
+      <category term="MAC" scheme="http://antfire70007.github.io/tags/MAC/"/>
+    
+      <category term="Bash" scheme="http://antfire70007.github.io/tags/Bash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在執行sudo npm install 時，出現 permission denied, mkdir &quot;xxx&quot; 權限錯誤</title>
+    <link href="http://antfire70007.github.io/2017/11/25/problem-with-npm-install/"/>
+    <id>http://antfire70007.github.io/2017/11/25/problem-with-npm-install/</id>
+    <published>2017-11-25T04:05:31.542Z</published>
+    <updated>2017-11-25T14:13:40.134Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="問題描述"><a href="#問題描述" class="headerlink" title="問題描述"></a>問題描述</h1><p>在執行sudo npm install時，遇到以下錯誤<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gyp verb build dir attempting to create <span class="string">"build"</span> dir: ...</span><br><span class="line">gyp ERR! configure error</span><br><span class="line">gyp ERR! stack Error: EACCES: permission denied, mkdir <span class="string">'...'</span></span><br></pre></td></tr></table></figure></p><p>即使我下了sudo 依然如故，疑似是安裝過程中，執行了需要授權的指令 例如 <code>mkdir</code>等</p><h1 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法"></a>解決方法</h1><p>在<code>sudo npm install</code> 後面加上權限相關參數 <code>--unsafe-perm=true --allow-root</code><br>在過程中可能會需要貴方手動輸入 <code>agree</code></p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install --unsafe-perm=<span class="literal">true</span> --allow-root</span><br></pre></td></tr></table></figure><p>tada~~</p><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://github.com/npm/npm/issues/17268" target="_blank" rel="noopener">stackoverflow</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;問題描述&quot;&gt;&lt;a href=&quot;#問題描述&quot; class=&quot;headerlink&quot; title=&quot;問題描述&quot;&gt;&lt;/a&gt;問題描述&lt;/h1&gt;&lt;p&gt;在執行sudo npm install時，遇到以下錯誤&lt;br&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;t
+      
+    
+    </summary>
+    
+    
+      <category term="npm" scheme="http://antfire70007.github.io/tags/npm/"/>
+    
+  </entry>
+  
+</feed>
