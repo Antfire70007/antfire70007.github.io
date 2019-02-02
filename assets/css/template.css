@@ -88,7 +88,7 @@ section {
 
 body {
     margin: 0;
-    font-family: "Poppins", Arial;
+    font-family: "Noto Sans TC", "Poppins", Arial;
     font-size: .875rem;
     font-weight: 400;
     line-height: 1.8;
@@ -6225,7 +6225,7 @@ button.close {
     z-index: 1070;
     display: block;
     margin: 4px;
-    font-family: "Poppins", Arial;
+    font-family: "Noto Sans TC", "Poppins", Arial;
     font-style: normal;
     font-weight: 400;
     line-height: 1.8;
@@ -6350,7 +6350,7 @@ button.close {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: "Poppins", Arial;
+    font-family: "Noto Sans TC", "Poppins", Arial;
     font-style: normal;
     font-weight: 400;
     line-height: 1.8;
@@ -12857,6 +12857,10 @@ img.img-shadow,
     padding-left: 15px;
 }
 
+.sidebar .category-list-count {
+    float: right;
+}
+
 .post {
     border-bottom: 1px solid #f0f0f0;
     padding: 0 0 35px;
@@ -13741,4 +13745,198 @@ body.off-canvas-sidebar-open:after {
 
 .nav-sidebar a:hover {
     color: #505cfd;
+}
+
+.md-content .markdown-here-wrapper {
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: .1em;
+}
+
+.md-content pre,
+.md-content code {
+    font-size: 14px;
+    font-family: Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
+    margin: auto 5px;
+}
+
+.md-content code {
+    white-space: pre-wrap;
+    border-radius: 2px;
+    display: inline;
+}
+
+.md-content pre {
+    font-size: 15px;
+    line-height: 1.4em;
+    display: block !important;
+}
+
+.md-content pre code {
+    white-space: pre;
+    overflow: auto;
+    border-radius: 3px;
+    padding: 1px 1px;
+    display: block !important;
+}
+
+.md-content strong,
+.md-content b {
+    color: #bf360c;
+}
+
+.md-content em,
+.md-content i {
+    color: #009688;
+}
+
+.md-content hr {
+    border: 1px solid #bf360c;
+    margin: 1.5em auto;
+}
+
+.md-content p {
+    margin: 1.5em 5px !important;
+}
+
+.md-content table,
+.md-content pre,
+.md-content dl,
+.md-content blockquote,
+.md-content q,
+.md-content ul,
+.md-content ol {
+    margin: 10px 5px;
+}
+
+.md-content ul,
+.md-content ol {
+    padding-left: 15px;
+}
+
+.md-content li {
+    margin: 10px;
+}
+
+.md-content li p {
+    margin: 10px 0 !important;
+}
+
+.md-content ul ul,
+.md-content ul ol,
+.md-content ol ul,
+.md-content ol ol {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.md-content ul {
+    list-style-type: circle;
+}
+
+.md-content dl {
+    padding: 0;
+}
+
+.md-content dl dt {
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.md-content dl dd {
+    margin: 0 0 10px;
+    padding: 0 10px;
+}
+
+.md-content blockquote,
+.md-content q {
+    border-left: 2px solid #009688;
+    padding: 0 10px;
+    color: #777;
+    quotes: none;
+    margin-left: 1em;
+}
+
+.md-content blockquote::before,
+.md-content blockquote::after,
+.md-content q::before,
+.md-content q::after {
+    content: none;
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+    margin: 20px 0 10px;
+    padding: 0;
+    font-style: bold !important;
+    color: #009688 !important;
+    text-align: center !important;
+    margin: 1.5em 5px !important;
+    padding: .5em 1em !important;
+}
+
+.md-content h1 {
+    font-size: 24px !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.md-content h2 {
+    font-size: 20px !important;
+    border-bottom: 1px solid #eee !important;
+}
+
+.md-content h3 {
+    font-size: 18px;
+}
+
+.md-content h4 {
+    font-size: 16px;
+}
+
+.md-content table {
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+    font: inherit;
+    border: 0;
+    margin: 0 auto;
+}
+
+.md-content tbody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.md-content table tr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.md-content table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+.md-content table tr th,
+.md-content table tr td {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.md-content table tr th {
+    font-weight: bold;
+    color: #eee;
+    border: 1px solid #009688;
+    background-color: #009688;
 }

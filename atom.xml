@@ -44,23 +44,26 @@
     <link href="http://antfire70007.github.io/2017/11/30/entityframework-core-2-installation/"/>
     <id>http://antfire70007.github.io/2017/11/30/entityframework-core-2-installation/</id>
     <published>2017-11-30T14:34:39.548Z</published>
-    <updated>2017-11-28T05:21:46.000Z</updated>
+    <updated>2019-02-02T15:57:56.307Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="安裝-Entity-Framework"><a href="#安裝-Entity-Framework" class="headerlink" title="安裝 Entity Framework"></a>安裝 Entity Framework</h1><p>在套件管理員執行以下指令</p><h2 id="安裝-SqlServer套件"><a href="#安裝-SqlServer套件" class="headerlink" title="安裝 SqlServer套件"></a>安裝 SqlServer套件</h2><blockquote><ul><li><code>Install-Package Microsoft.EntityFrameworkCore.SqlServer</code></li></ul></blockquote><h2 id="安裝Entity-Framework-工具"><a href="#安裝Entity-Framework-工具" class="headerlink" title="安裝Entity Framework 工具"></a>安裝Entity Framework 工具</h2><blockquote><ul><li><code>Install-Package Microsoft.EntityFramework.Tools</code></li></ul></blockquote><h2 id="安裝-Scaffolding-tool來幫忙產生-DbContext-及-POCO"><a href="#安裝-Scaffolding-tool來幫忙產生-DbContext-及-POCO" class="headerlink" title="安裝 Scaffolding tool來幫忙產生 DbContext 及 POCO"></a>安裝 Scaffolding tool來幫忙產生 DbContext 及 POCO</h2><blockquote><ul><li><code>Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design</code></li></ul></blockquote><h1 id="根據現有的資料庫來建立EF-Model"><a href="#根據現有的資料庫來建立EF-Model" class="headerlink" title="根據現有的資料庫來建立EF Model"></a>根據現有的資料庫來建立EF Model</h1><p>在套件管理員執行以下指令</p><blockquote><ul><li><code>scaffold-DbContext &quot;您的連線字串&quot; Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models</code><br>Models 是用來指定產生出來的DbContext及POCO放置的資料夾位置</li></ul></blockquote><h2 id="讓scaffold-DbContext只轉換指定的資料表"><a href="#讓scaffold-DbContext只轉換指定的資料表" class="headerlink" title="讓scaffold-DbContext只轉換指定的資料表"></a>讓scaffold-DbContext只轉換指定的資料表</h2><p>如果不希望將資料庫內所有的資料表轉成EF Model的話，可以使用<code>-Tables</code> 選項，告訴它只需要幫我轉換以下資料表即可<code>tableA,tableB</code></p><p>範例：</p><blockquote><ul><li><code>scaffold-DbContext &quot;您的連線字串&quot; Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables TableA,TableB</code></li></ul></blockquote>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://via.placeholder.com/350x150" alt="Alt text"></p><h1 id="安裝-Entity-Framework"><a href="#安裝-Entity-Framework" class="headerlink" title="安裝 Entity Framework"></a>安裝 Entity Framework</h1><p>在套件管理員執行以下指令</p><h2 id="安裝-SqlServer套件"><a href="#安裝-SqlServer套件" class="headerlink" title="安裝 SqlServer套件"></a>安裝 SqlServer套件</h2><blockquote><ul><li><code>Install-Package Microsoft.EntityFrameworkCore.SqlServer</code></li></ul></blockquote><h2 id="安裝Entity-Framework-工具"><a href="#安裝Entity-Framework-工具" class="headerlink" title="安裝Entity Framework 工具"></a>安裝Entity Framework 工具</h2><blockquote><ul><li><code>Install-Package Microsoft.EntityFramework.Tools</code></li></ul></blockquote><h2 id="安裝-Scaffolding-tool來幫忙產生-DbContext-及-POCO"><a href="#安裝-Scaffolding-tool來幫忙產生-DbContext-及-POCO" class="headerlink" title="安裝 Scaffolding tool來幫忙產生 DbContext 及 POCO"></a>安裝 Scaffolding tool來幫忙產生 DbContext 及 POCO</h2><blockquote><ul><li><code>Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design</code></li></ul></blockquote><h1 id="根據現有的資料庫來建立EF-Model"><a href="#根據現有的資料庫來建立EF-Model" class="headerlink" title="根據現有的資料庫來建立EF Model"></a>根據現有的資料庫來建立EF Model</h1><p>在套件管理員執行以下指令</p><blockquote><ul><li><code>scaffold-DbContext &quot;您的連線字串&quot; Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models</code><br>Models 是用來指定產生出來的DbContext及POCO放置的資料夾位置</li></ul></blockquote><h2 id="讓scaffold-DbContext只轉換指定的資料表"><a href="#讓scaffold-DbContext只轉換指定的資料表" class="headerlink" title="讓scaffold-DbContext只轉換指定的資料表"></a>讓scaffold-DbContext只轉換指定的資料表</h2><p>如果不希望將資料庫內所有的資料表轉成EF Model的話，可以使用<code>-Tables</code> 選項，告訴它只需要幫我轉換以下資料表即可<code>tableA,tableB</code></p><p>範例：</p><blockquote><ul><li><code>scaffold-DbContext &quot;您的連線字串&quot; Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables TableA,TableB</code></li></ul></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;安裝-Entity-Framework&quot;&gt;&lt;a href=&quot;#安裝-Entity-Framework&quot; class=&quot;headerlink&quot; title=&quot;安裝 Entity Framework&quot;&gt;&lt;/a&gt;安裝 Entity Framework&lt;/h1&gt;&lt;p&gt;在套
+        &lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/350x150&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;安裝-Entity-Framework&quot;&gt;&lt;a href=&quot;#安裝-Entity-Framework&quot; class=&quot;hea
       
     
     </summary>
     
+      <category term="前端" scheme="http://antfire70007.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="entityframework" scheme="http://antfire70007.github.io/tags/entityframework/"/>
     
       <category term="dotnet core" scheme="http://antfire70007.github.io/tags/dotnet-core/"/>
+    
+      <category term="entityframework" scheme="http://antfire70007.github.io/tags/entityframework/"/>
     
   </entry>
   
