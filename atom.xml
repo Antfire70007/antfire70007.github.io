@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Antfire 的生活雜記</title>
+  <icon>https://www.antfiretoolbox.app/icon.png</icon>
+  
+  <link href="https://www.antfiretoolbox.app/atom.xml" rel="self"/>
+  
+  <link href="https://www.antfiretoolbox.app/"/>
+  <updated>2024-03-12T03:08:32.678Z</updated>
+  <id>https://www.antfiretoolbox.app/</id>
+  
+  <author>
+    <name>Antfire</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>取消Viber及Line的廣告</title>
+    <link href="https://www.antfiretoolbox.app/blog/disable-viber-line-ad/"/>
+    <id>https://www.antfiretoolbox.app/blog/disable-viber-line-ad/</id>
+    <published>2024-03-12T01:55:57.000Z</published>
+    <updated>2024-03-12T03:08:32.678Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;操作方式&quot;&gt;&lt;a href=&quot;#操作方式&quot; class=&quot;headerlink&quot; title=&quot;操作方式&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>連線 SQL Server 出現錯誤 10054</title>
+    <link href="https://www.antfiretoolbox.app/blog/sql-server-connect-problem-error-10054/"/>
+    <id>https://www.antfiretoolbox.app/blog/sql-server-connect-problem-error-10054/</id>
+    <published>2023-11-07T00:15:13.000Z</published>
+    <updated>2024-03-12T03:08:32.718Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;問題描述&quot;&gt;&lt;a href=&quot;#問題描述&quot; class=&quot;headerlink&quot; title=&quot;問題描述&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;問題描述&lt;/h1&gt;&lt;p&gt;連接 SQL Server 2005時，出現錯誤訊息</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+    <category term="SQLServer" scheme="https://www.antfiretoolbox.app/tags/SQLServer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Owl Slider Auto Height Problem</title>
+    <link href="https://www.antfiretoolbox.app/blog/owl-slider-auto-height/"/>
+    <id>https://www.antfiretoolbox.app/blog/owl-slider-auto-height/</id>
+    <published>2023-09-23T03:15:08.000Z</published>
+    <updated>2024-03-12T03:08:32.710Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;加入以下CSS&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs css&quot;&gt;&lt;span class=&quot;hljs-selector-class&quot;&gt;.owl-item&lt;/span&gt; &amp;#123;
+	&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="CSS" scheme="https://www.antfiretoolbox.app/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Band 202310</title>
+    <link href="https://www.antfiretoolbox.app/blog/band-202310/"/>
+    <id>https://www.antfiretoolbox.app/blog/band-202310/</id>
+    <published>2023-09-21T02:21:19.000Z</published>
+    <updated>2024-03-12T03:08:32.670Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;灌籃高手 - 好想大聲說喜歡你&lt;div class=&quot;nk-plain-video&quot; data-video=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v&amp;#x3D;AaCxwA9pz-s&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://www.antfiretoolbox.app/categories/Life/"/>
+    
+    
+    <category term="Music" scheme="https://www.antfiretoolbox.app/tags/Music/"/>
+    
+    <category term="Audio" scheme="https://www.antfiretoolbox.app/tags/Audio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Band 202306</title>
+    <link href="https://www.antfiretoolbox.app/blog/band-202306/"/>
+    <id>https://www.antfiretoolbox.app/blog/band-202306/</id>
+    <published>2023-06-21T02:21:19.000Z</published>
+    <updated>2024-03-12T03:08:32.670Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;13 JOURS EN FRANCE by AWA  (Em(G), Frances主唱) &lt;div class=&quot;nk-plain-video&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://www.antfiretoolbox.app/categories/Life/"/>
+    
+    
+    <category term="Music" scheme="https://www.antfiretoolbox.app/tags/Music/"/>
+    
+    <category term="Audio" scheme="https://www.antfiretoolbox.app/tags/Audio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>form-validation-for-checkbox</title>
+    <link href="https://www.antfiretoolbox.app/blog/form-validation-for-checkbox/"/>
+    <id>https://www.antfiretoolbox.app/blog/form-validation-for-checkbox/</id>
+    <published>2023-06-08T03:15:08.000Z</published>
+    <updated>2024-03-12T03:08:32.690Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code class=&quot;hljs csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jquery-validate-requiredif</title>
+    <link href="https://www.antfiretoolbox.app/blog/jquery-validate-requiredif/"/>
+    <id>https://www.antfiretoolbox.app/blog/jquery-validate-requiredif/</id>
+    <published>2023-06-02T08:31:19.000Z</published>
+    <updated>2024-03-12T03:08:32.698Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code class=&quot;hljs javascript&quot;&gt;$.validator.&lt;span class=&quot;hljs-title function_&quot;&gt;addMethod&lt;/span&gt;(&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="JavaScript" scheme="https://www.antfiretoolbox.app/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>量子電腦</title>
+    <link href="https://www.antfiretoolbox.app/blog/quantum-computer-introduction/"/>
+    <id>https://www.antfiretoolbox.app/blog/quantum-computer-introduction/</id>
+    <published>2023-05-05T06:18:07.000Z</published>
+    <updated>2024-03-12T03:08:32.714Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;img src=&quot;/blog/quantum-computer-introduction/q-computer.png&quot; class=&quot;&quot; title=&quot;title-量子電腦&quot; alt=&quot;img-q-computer.png&quot;&gt;
+&lt;h1 id=&quot;簡介&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Note" scheme="https://www.antfiretoolbox.app/categories/Note/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Windows 11 找回傳統滑鼠右鍵選單</title>
+    <link href="https://www.antfiretoolbox.app/blog/windows-11-enable-classic-rightclick-context-menu/"/>
+    <id>https://www.antfiretoolbox.app/blog/windows-11-enable-classic-rightclick-context-menu/</id>
+    <published>2023-05-04T07:14:02.000Z</published>
+    <updated>2024-03-12T03:08:32.726Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;傳統右鍵選單&quot;&gt;&lt;a href=&quot;#傳統右鍵選單&quot; class=&quot;headerlink&quot; title=&quot;傳統右鍵選單&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel列出所有目錄</title>
+    <link href="https://www.antfiretoolbox.app/blog/excel-list-directories/"/>
+    <id>https://www.antfiretoolbox.app/blog/excel-list-directories/</id>
+    <published>2023-05-03T01:51:04.000Z</published>
+    <updated>2024-03-12T03:08:32.686Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;使用Excel-VBA&quot;&gt;&lt;a href=&quot;#使用Excel-VBA&quot; class=&quot;headerlink&quot; title=&quot;使用Excel VBA&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;使用Excel</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Excel" scheme="https://www.antfiretoolbox.app/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bootstrap呼叫Modal隱藏時出現錯誤</title>
+    <link href="https://www.antfiretoolbox.app/blog/jquery-size-is-not-a-function/"/>
+    <id>https://www.antfiretoolbox.app/blog/jquery-size-is-not-a-function/</id>
+    <published>2023-04-28T07:39:18.000Z</published>
+    <updated>2024-03-12T03:08:32.698Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Trombone Champ 演奏會</title>
+    <link href="https://www.antfiretoolbox.app/blog/game-trombone-champ/"/>
+    <id>https://www.antfiretoolbox.app/blog/game-trombone-champ/</id>
+    <published>2023-04-27T02:32:03.000Z</published>
+    <updated>2024-03-12T03:08:32.690Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Warm-up&quot;&gt;&lt;a href=&quot;#Warm-up&quot; class=&quot;headerlink&quot; title=&quot;Warm up&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;Warm up&lt;/h1&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="Game" scheme="https://www.antfiretoolbox.app/categories/Game/"/>
+    
+    <category term="Trombone Champ" scheme="https://www.antfiretoolbox.app/categories/Game/Trombone-Champ/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript 陣列排序擴充套件推薦 - firstBy</title>
+    <link href="https://www.antfiretoolbox.app/blog/javascript-array-sort-firstBy-thenBy/"/>
+    <id>https://www.antfiretoolbox.app/blog/javascript-array-sort-firstBy-thenBy/</id>
+    <published>2023-04-27T00:44:12.000Z</published>
+    <updated>2024-03-12T03:08:32.698Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;故事大綱&quot;&gt;&lt;a href=&quot;#故事大綱&quot; class=&quot;headerlink&quot; title=&quot;故事大綱&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="JavaScript" scheme="https://www.antfiretoolbox.app/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 NPOI 在Word文件加入頁首小筆記</title>
+    <link href="https://www.antfiretoolbox.app/blog/npoi-how-to-add-header-in-word/"/>
+    <id>https://www.antfiretoolbox.app/blog/npoi-how-to-add-header-in-word/</id>
+    <published>2023-04-25T01:06:29.000Z</published>
+    <updated>2024-03-12T03:08:32.702Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;程式碼&quot;&gt;&lt;a href=&quot;#程式碼&quot; class=&quot;headerlink&quot; title=&quot;程式碼&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;程式碼&lt;/h1&gt;&lt;pre&gt;&lt;code class=&quot;hljs csharp&quot;&gt;CT_Hdr</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="C#" scheme="https://www.antfiretoolbox.app/tags/C/"/>
+    
+    <category term="NPOI" scheme="https://www.antfiretoolbox.app/tags/NPOI/"/>
+    
+    <category term="Word" scheme="https://www.antfiretoolbox.app/tags/Word/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>懷舊系列-2048 Dos</title>
+    <link href="https://www.antfiretoolbox.app/blog/2048/"/>
+    <id>https://www.antfiretoolbox.app/blog/2048/</id>
+    <published>2023-03-30T06:47:09.000Z</published>
+    <updated>2024-03-12T03:08:32.606Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;nk-game-container&quot; data-game=&quot;&amp;#x2F;gms&amp;#x2F;2048.jsdos&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Trial Games" scheme="https://www.antfiretoolbox.app/categories/Trial-Games/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>懷舊系列-仙劍奇俠傳 Dos</title>
+    <link href="https://www.antfiretoolbox.app/blog/pal/"/>
+    <id>https://www.antfiretoolbox.app/blog/pal/</id>
+    <published>2023-03-30T06:47:09.000Z</published>
+    <updated>2024-03-12T03:08:32.710Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;nk-game-container&quot; data-game=&quot;&amp;#x2F;gms&amp;#x2F;pal.jsdos&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Trial Games" scheme="https://www.antfiretoolbox.app/categories/Trial-Games/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>office 365 登入時出現機碼組不存在之錯誤訊息</title>
+    <link href="https://www.antfiretoolbox.app/blog/office-365-keyset-does-not-exist/"/>
+    <id>https://www.antfiretoolbox.app/blog/office-365-keyset-does-not-exist/</id>
+    <published>2023-03-22T01:53:31.000Z</published>
+    <updated>2024-03-12T03:08:32.706Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;問題描述&quot;&gt;&lt;a href=&quot;#問題描述&quot; class=&quot;headerlink&quot; title=&quot;問題描述&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;問題描述&lt;/h1&gt;&lt;p&gt;今天要使用Office</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+    <category term="Microsoft Office" scheme="https://www.antfiretoolbox.app/tags/Microsoft-Office/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Band 202304</title>
+    <link href="https://www.antfiretoolbox.app/blog/band-202304/"/>
+    <id>https://www.antfiretoolbox.app/blog/band-202304/</id>
+    <published>2023-03-21T02:21:19.000Z</published>
+    <updated>2024-03-12T03:08:32.670Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;13 JOURS EN FRANCE by AWA &lt;/p&gt;
+&lt;div class=&quot;nk-plain-video&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://www.antfiretoolbox.app/categories/Life/"/>
+    
+    
+    <category term="Music" scheme="https://www.antfiretoolbox.app/tags/Music/"/>
+    
+    <category term="Audio" scheme="https://www.antfiretoolbox.app/tags/Audio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel 中萬用字搜尋或取代的使用方式</title>
+    <link href="https://www.antfiretoolbox.app/blog/wildcard-find-replace-with-excel/"/>
+    <id>https://www.antfiretoolbox.app/blog/wildcard-find-replace-with-excel/</id>
+    <published>2023-03-08T06:18:15.000Z</published>
+    <updated>2024-03-12T03:08:32.726Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Excel-中的特殊符號&quot;&gt;&lt;a href=&quot;#Excel-中的特殊符號&quot; class=&quot;headerlink&quot; title=&quot;Excel 中的特殊符號&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;Excel 中的特殊符號&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Excel" scheme="https://www.antfiretoolbox.app/tags/Excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Band 202303</title>
+    <link href="https://www.antfiretoolbox.app/blog/band-202303/"/>
+    <id>https://www.antfiretoolbox.app/blog/band-202303/</id>
+    <published>2023-03-02T02:21:19.000Z</published>
+    <updated>2024-03-12T03:08:32.670Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;Omens of love&lt;div class=&quot;nk-plain-video&quot; data-video=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v&amp;#x3D;Pp-KNWjC19w&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://www.antfiretoolbox.app/categories/Life/"/>
+    
+    
+    <category term="Music" scheme="https://www.antfiretoolbox.app/tags/Music/"/>
+    
+    <category term="Audio" scheme="https://www.antfiretoolbox.app/tags/Audio/"/>
+    
+  </entry>
+  
+</feed>
