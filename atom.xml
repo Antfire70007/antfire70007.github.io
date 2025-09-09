@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Antfire 的生活雜記</title>
+  <icon>https://www.antfiretoolbox.app/icon.png</icon>
+  
+  <link href="https://www.antfiretoolbox.app/atom.xml" rel="self"/>
+  
+  <link href="https://www.antfiretoolbox.app/"/>
+  <updated>2025-09-09T00:13:26.823Z</updated>
+  <id>https://www.antfiretoolbox.app/</id>
+  
+  <author>
+    <name>Antfire</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Unity 專案打不開？Missing Default Layout 的完整修復指南</title>
+    <link href="https://www.antfiretoolbox.app/blog/unity-missing-default-layout/"/>
+    <id>https://www.antfiretoolbox.app/blog/unity-missing-default-layout/</id>
+    <published>2025-09-09T01:00:00.000Z</published>
+    <updated>2025-09-09T00:13:26.823Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在開啟 Unity 專案的時候，你是否遇過這個惱人的錯誤訊息？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/unity-missing-default-layout/43029d05-de1a-459a-a16b-0e16b585baa7.png&quot; alt=&quot;Unity</summary>
+        
+      
+    
+    
+    
+    <category term="開發筆記" scheme="https://www.antfiretoolbox.app/categories/%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="Unity" scheme="https://www.antfiretoolbox.app/tags/Unity/"/>
+    
+    <category term="Troubleshooting" scheme="https://www.antfiretoolbox.app/tags/Troubleshooting/"/>
+    
+    <category term="GameDev" scheme="https://www.antfiretoolbox.app/tags/GameDev/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Visual Studio 發布網站常見錯誤：[找到多個具有相同相對路徑的發佈輸出檔案] 解法一次看懂！</title>
+    <link href="https://www.antfiretoolbox.app/blog/solution-for-generate-error-for-duplicate-files-in-publish-output-when-publishing-website-in-visual-studio/"/>
+    <id>https://www.antfiretoolbox.app/blog/solution-for-generate-error-for-duplicate-files-in-publish-output-when-publishing-website-in-visual-studio/</id>
+    <published>2025-04-15T01:25:10.000Z</published>
+    <updated>2025-09-09T00:13:26.814Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Visual-Studio-發布網站常見錯誤：Duplicate-Files-衝突解法一次看懂！&quot;&gt;&lt;a href=&quot;#Visual-Studio-發布網站常見錯誤：Duplicate-Files-衝突解法一次看懂！&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="C#" scheme="https://www.antfiretoolbox.app/tags/C/"/>
+    
+    <category term="dotnet" scheme="https://www.antfiretoolbox.app/tags/dotnet/"/>
+    
+    <category term="VisualStudio" scheme="https://www.antfiretoolbox.app/tags/VisualStudio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Skraper取得的Metadata轉換成天馬前端後，遺失圖片資訊的解決方案</title>
+    <link href="https://www.antfiretoolbox.app/blog/pegasus-frontend-android-rom-meta-convert-from-skraper-generic-to-pegasus-metadata-missing-image-information/"/>
+    <id>https://www.antfiretoolbox.app/blog/pegasus-frontend-android-rom-meta-convert-from-skraper-generic-to-pegasus-metadata-missing-image-information/</id>
+    <published>2025-03-19T02:46:30.000Z</published>
+    <updated>2025-09-09T00:13:26.806Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="遊戲" scheme="https://www.antfiretoolbox.app/categories/%E9%81%8A%E6%88%B2/"/>
+    
+    
+    <category term="Pegasus" scheme="https://www.antfiretoolbox.app/tags/Pegasus/"/>
+    
+    <category term="Android" scheme="https://www.antfiretoolbox.app/tags/Android/"/>
+    
+    <category term="Skraper" scheme="https://www.antfiretoolbox.app/tags/Skraper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自訂義NLog 目標</title>
+    <link href="https://www.antfiretoolbox.app/blog/nlog-custom-target/"/>
+    <id>https://www.antfiretoolbox.app/blog/nlog-custom-target/</id>
+    <published>2025-03-06T02:44:56.000Z</published>
+    <updated>2025-09-09T00:13:26.798Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;新增MyNotify-cs&quot;&gt;&lt;a href=&quot;#新增MyNotify-cs&quot; class=&quot;headerlink&quot; title=&quot;新增MyNotify.cs&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="C#" scheme="https://www.antfiretoolbox.app/tags/C/"/>
+    
+    <category term="NLog" scheme="https://www.antfiretoolbox.app/tags/NLog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>.Net Framework ServiceProvider 小筆記</title>
+    <link href="https://www.antfiretoolbox.app/blog/net-framework-console-service-provider-template/"/>
+    <id>https://www.antfiretoolbox.app/blog/net-framework-console-service-provider-template/</id>
+    <published>2025-03-05T08:05:43.000Z</published>
+    <updated>2025-09-09T00:13:26.798Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code class=&quot;hljs csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Software" scheme="https://www.antfiretoolbox.app/categories/Software/"/>
+    
+    
+    <category term="dotnet" scheme="https://www.antfiretoolbox.app/tags/dotnet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Connection Timeout Error During Ubuntu 20.04 to 22.04 Upgrade and fix broken apache2 and php</title>
+    <link href="https://www.antfiretoolbox.app/blog/connection-timeout-error-ubuntu-20-04-to-22-04-upgrade/"/>
+    <id>https://www.antfiretoolbox.app/blog/connection-timeout-error-ubuntu-20-04-to-22-04-upgrade/</id>
+    <published>2025-03-04T08:26:34.000Z</published>
+    <updated>2025-09-09T00:13:26.779Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;問題&quot;&gt;&lt;a href=&quot;#問題&quot; class=&quot;headerlink&quot; title=&quot;問題&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;問題&lt;/h1&gt;&lt;p&gt;During the upgrade from Ubuntu 20.04 to</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Linux" scheme="https://www.antfiretoolbox.app/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://www.antfiretoolbox.app/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RabbitMQ 安裝紀錄</title>
+    <link href="https://www.antfiretoolbox.app/blog/rabbitmq-install-log/"/>
+    <id>https://www.antfiretoolbox.app/blog/rabbitmq-install-log/</id>
+    <published>2025-02-25T00:34:53.000Z</published>
+    <updated>2025-09-09T00:13:26.811Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;安裝-Erlang-x2F-OTP&quot;&gt;&lt;a href=&quot;#安裝-Erlang-x2F-OTP&quot; class=&quot;headerlink&quot; title=&quot;安裝 Erlang&amp;#x2F;OTP&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;安裝</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>移除IIS回應標頭 X-Powered-By</title>
+    <link href="https://www.antfiretoolbox.app/blog/remove-iis-response-server-header/"/>
+    <id>https://www.antfiretoolbox.app/blog/remove-iis-response-server-header/</id>
+    <published>2024-12-19T06:24:47.000Z</published>
+    <updated>2025-09-09T00:13:26.814Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;安裝&quot;&gt;&lt;a href=&quot;#安裝&quot; class=&quot;headerlink&quot; title=&quot;安裝&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;安裝&lt;/h1&gt;&lt;h2 id=&quot;步驟1&quot;&gt;&lt;a href=&quot;#步驟1&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+    <category term="IIS" scheme="https://www.antfiretoolbox.app/tags/IIS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ASUS-USB-AX56-Wireless-USB-Adapter-Disconnecting-every-5-minutes</title>
+    <link href="https://www.antfiretoolbox.app/blog/ASUS-USB-AX56-Wireless-USB-Adapter-Disconnecting-every-5-minutes/"/>
+    <id>https://www.antfiretoolbox.app/blog/ASUS-USB-AX56-Wireless-USB-Adapter-Disconnecting-every-5-minutes/</id>
+    <published>2024-12-03T01:12:56.000Z</published>
+    <updated>2025-09-09T00:13:26.705Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;問題描述&quot;&gt;&lt;a href=&quot;#問題描述&quot; class=&quot;headerlink&quot; title=&quot;問題描述&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;問題描述&lt;/h1&gt;&lt;p&gt;無線網路常常不定時關閉又重啟&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Blender 學習筆記</title>
+    <link href="https://www.antfiretoolbox.app/blog/study-circle-blender-hard-surface-modeling/"/>
+    <id>https://www.antfiretoolbox.app/blog/study-circle-blender-hard-surface-modeling/</id>
+    <published>2024-11-21T00:47:24.000Z</published>
+    <updated>2025-09-09T00:13:26.820Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study Circle" scheme="https://www.antfiretoolbox.app/categories/Study-Circle/"/>
+    
+    <category term="Art" scheme="https://www.antfiretoolbox.app/categories/Study-Circle/Art/"/>
+    
+    
+    <category term="Unity" scheme="https://www.antfiretoolbox.app/tags/Unity/"/>
+    
+    <category term="Blender" scheme="https://www.antfiretoolbox.app/tags/Blender/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>華碩 ROG Ally 搖桿失效</title>
+    <link href="https://www.antfiretoolbox.app/blog/rog-ally-controller-failed-in-windows-11/"/>
+    <id>https://www.antfiretoolbox.app/blog/rog-ally-controller-failed-in-windows-11/</id>
+    <published>2024-11-12T04:11:23.000Z</published>
+    <updated>2025-09-09T00:13:26.814Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C# 8 新東西 - Readonly Struct  Members</title>
+    <link href="https://www.antfiretoolbox.app/blog/2024-08-27-whats-new-in-c-sharp-8-readonly-struct-members/"/>
+    <id>https://www.antfiretoolbox.app/blog/2024-08-27-whats-new-in-c-sharp-8-readonly-struct-members/</id>
+    <published>2024-08-27T01:56:31.000Z</published>
+    <updated>2025-09-09T00:13:26.704Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Running the command &lt;code&gt;dotnet dev-certs https --trust&lt;/code&gt; will create a self-signed certificate in your device. This certificate</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="dotnet" scheme="https://www.antfiretoolbox.app/tags/dotnet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浮生憶玲瓏-守護-禮物</title>
+    <link href="https://www.antfiretoolbox.app/blog/winnie-xi-shen-i-lin-long-mamori-purezento/"/>
+    <id>https://www.antfiretoolbox.app/blog/winnie-xi-shen-i-lin-long-mamori-purezento/</id>
+    <published>2024-07-24T07:14:02.000Z</published>
+    <updated>2025-09-09T00:13:26.828Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;沈長歡&quot;&gt;&lt;a href=&quot;#沈長歡&quot; class=&quot;headerlink&quot; title=&quot;沈長歡&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;沈長歡&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;金色</summary>
+        
+      
+    
+    
+    
+    <category term="遊戲" scheme="https://www.antfiretoolbox.app/categories/%E9%81%8A%E6%88%B2/"/>
+    
+    
+    <category term="攻略" scheme="https://www.antfiretoolbox.app/tags/%E6%94%BB%E7%95%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>取消Viber及Line的廣告</title>
+    <link href="https://www.antfiretoolbox.app/blog/disable-viber-line-ad/"/>
+    <id>https://www.antfiretoolbox.app/blog/disable-viber-line-ad/</id>
+    <published>2024-03-12T01:55:57.000Z</published>
+    <updated>2025-09-09T00:13:26.783Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;操作方式&quot;&gt;&lt;a href=&quot;#操作方式&quot; class=&quot;headerlink&quot; title=&quot;操作方式&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>連線 SQL Server 出現錯誤 10054</title>
+    <link href="https://www.antfiretoolbox.app/blog/sql-server-connect-problem-error-10054/"/>
+    <id>https://www.antfiretoolbox.app/blog/sql-server-connect-problem-error-10054/</id>
+    <published>2023-11-07T00:15:13.000Z</published>
+    <updated>2025-09-09T00:13:26.818Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;問題描述&quot;&gt;&lt;a href=&quot;#問題描述&quot; class=&quot;headerlink&quot; title=&quot;問題描述&quot; style=&quot;display:none;&quot;&gt;&amp;nbsp;&lt;/a&gt;問題描述&lt;/h1&gt;&lt;p&gt;連接 SQL Server 2005時，出現錯誤訊息</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="Windows" scheme="https://www.antfiretoolbox.app/tags/Windows/"/>
+    
+    <category term="SQLServer" scheme="https://www.antfiretoolbox.app/tags/SQLServer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Owl Slider Auto Height Problem</title>
+    <link href="https://www.antfiretoolbox.app/blog/owl-slider-auto-height/"/>
+    <id>https://www.antfiretoolbox.app/blog/owl-slider-auto-height/</id>
+    <published>2023-09-23T03:15:08.000Z</published>
+    <updated>2025-09-09T00:13:26.805Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;加入以下CSS&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs css&quot;&gt;&lt;span class=&quot;hljs-selector-class&quot;&gt;.owl-item&lt;/span&gt; &amp;#123;
+	&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="CSS" scheme="https://www.antfiretoolbox.app/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Band 202310</title>
+    <link href="https://www.antfiretoolbox.app/blog/band-202310/"/>
+    <id>https://www.antfiretoolbox.app/blog/band-202310/</id>
+    <published>2023-09-21T02:21:19.000Z</published>
+    <updated>2025-09-09T00:13:26.771Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;灌籃高手 - 好想大聲說喜歡你&lt;div class=&quot;nk-plain-video&quot; data-video=&quot;https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v&amp;#x3D;AaCxwA9pz-s&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://www.antfiretoolbox.app/categories/Life/"/>
+    
+    
+    <category term="Music" scheme="https://www.antfiretoolbox.app/tags/Music/"/>
+    
+    <category term="Audio" scheme="https://www.antfiretoolbox.app/tags/Audio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Band 202306</title>
+    <link href="https://www.antfiretoolbox.app/blog/band-202306/"/>
+    <id>https://www.antfiretoolbox.app/blog/band-202306/</id>
+    <published>2023-06-21T02:21:19.000Z</published>
+    <updated>2025-09-09T00:13:26.771Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;13 JOURS EN FRANCE by AWA  (Em(G), Frances主唱) &lt;div class=&quot;nk-plain-video&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://www.antfiretoolbox.app/categories/Life/"/>
+    
+    
+    <category term="Music" scheme="https://www.antfiretoolbox.app/tags/Music/"/>
+    
+    <category term="Audio" scheme="https://www.antfiretoolbox.app/tags/Audio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>form-validation-for-checkbox</title>
+    <link href="https://www.antfiretoolbox.app/blog/form-validation-for-checkbox/"/>
+    <id>https://www.antfiretoolbox.app/blog/form-validation-for-checkbox/</id>
+    <published>2023-06-08T03:15:08.000Z</published>
+    <updated>2025-09-09T00:13:26.789Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code class=&quot;hljs csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jquery-validate-requiredif</title>
+    <link href="https://www.antfiretoolbox.app/blog/jquery-validate-requiredif/"/>
+    <id>https://www.antfiretoolbox.app/blog/jquery-validate-requiredif/</id>
+    <published>2023-06-02T08:31:19.000Z</published>
+    <updated>2025-09-09T00:13:26.796Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code class=&quot;hljs javascript&quot;&gt;$.validator.&lt;span class=&quot;hljs-title function_&quot;&gt;addMethod&lt;/span&gt;(&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Information" scheme="https://www.antfiretoolbox.app/categories/Information/"/>
+    
+    
+    <category term="JavaScript" scheme="https://www.antfiretoolbox.app/tags/JavaScript/"/>
+    
+  </entry>
+  
+</feed>
